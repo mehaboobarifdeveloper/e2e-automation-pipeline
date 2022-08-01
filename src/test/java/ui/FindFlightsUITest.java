@@ -21,5 +21,6 @@ public class FindFlightsUITest {
     @WithTag(type="type", name="UI")
     public void  findFlights() {
         findFlightsUISteps.findFlights();
+        System.out.println("Testing this here");
     }
 }
